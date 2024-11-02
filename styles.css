@@ -1,2 +1,19 @@
-
+.holder{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+	width:100%;
+	padding:0 10px;
+	box-sizing:border-box;
+}
+.item{
+	flex:0 1 auto;
+	margin:5px;
+	min-width:100px;
+	background-color:lightblue;
+	padding:10px;
+	text-align:center;
+	box-sizing:border-box;
+}
 /* Your CSS Code here. */
